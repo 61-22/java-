@@ -1,0 +1,17 @@
+package  it.ccc;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+class HelloWorld{
+    public static void main(String[] args) {
+        Set<Integer> set = new HashSet<Integer>();
+        int[] array=new int[]{100,130,12,100};
+        for(int t:array)
+            set.add(t);
+        System.out.println(Arrays.toString(set.toArray()));
+    }
+
+}
+
